@@ -16,7 +16,12 @@ public class Player : MonoBehaviour
     }
 
     void FixedUpdate(){
-        Vector2 nextVec =inputVec.normalize * speed *
+        Vector2 nextVec = inputVec * speed * Time.fixedDeltaTime;
+        rigid.MovePosition(rigid.position + nextVec);
+    }
+
+    void OnMove(InputValue value){
+        inputVec = value.Get<Vector2>();
     }
 
 }

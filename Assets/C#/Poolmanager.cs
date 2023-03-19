@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemymanger : MonoBehaviour
+public class Poolmanger : MonoBehaviour
 {
     // 프리팹 변수
     public GameObject[] prefabs;

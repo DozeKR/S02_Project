@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour
 
     
     void FixedUpdate(){
-        if(!isLive || anim.GetCurrentAnimatorStateInfo(0).IsName("Hit")){
+        if(!isLive || anim.GetCurrentAnimatorStateInfo(0).IsName("Dead")){
             return;
         }
         Vector2 dirVec = target.position - rigid.position;
@@ -86,7 +86,7 @@ public class Enemy : MonoBehaviour
         yield return wait; // 한번의 물리 프레임 쉬기
         Vector3 playerPos = GameManager.instance.player.transform.position;
         Vector3 dirVec = transform.position - playerPos;
-        rigid.AddForce(dirVec.normalized * 3, ForceMode2D.Impulse);
+        rigid.AddForce(dirVec.normalized * 5, ForceMode2D.Impulse);
     }
  
     void Dead(){

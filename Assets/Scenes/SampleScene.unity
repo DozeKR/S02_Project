@@ -4414,6 +4414,10 @@ MonoBehaviour:
     enemyType: 0
     enemyhealth: 10
     enemyspeed: 1.5
+  - spawnTime: 0.5
+    enemyType: 1
+    enemyhealth: 15
+    enemyspeed: 2.5
   - spawnTime: 0.2
     enemyType: 1
     enemyhealth: 15
@@ -4677,7 +4681,7 @@ Animator:
   m_GameObject: {fileID: 450826262}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a123880a7c90e1a4f9e4ef800fc13511, type: 2}
+  m_Controller: {fileID: 9100000, guid: c78328d7bd2f5da4fa30c433c18a786d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

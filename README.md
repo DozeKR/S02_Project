@@ -29,11 +29,31 @@
 
 **-적(Enemy)-**
 
-여우, 늑대, 호랑이, 귀신 등
+EnemyA : 늑대
+
+EnemyB : 여우
+
+EnemyC : 호랑이
+
+EnemyD : 곰
+
+EnemyE : 도깨비
+
+EnemyF : 
+
+EnemyG :
+
+EnemyH :
 
 **-아이템(Item)-**
 
-활, 총, 창 등
+활
+
+총
+
+창 
+
+
 
 산삼, 근력운동, 신발, 부적, 해태 등
 

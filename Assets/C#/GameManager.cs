@@ -5,8 +5,10 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+
     public float gameTime;
     public float maxGameTime = 2 * 10f;
+    
     public Poolmanager pm;
     public Player player;
 

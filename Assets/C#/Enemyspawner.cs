@@ -8,7 +8,6 @@ public class Enemyspawner : MonoBehaviour
     public SpawnData[] spawnData;
 
     int level;
-
     float timer;
 
     void Awake(){

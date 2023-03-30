@@ -27,6 +27,10 @@
 
 착호갑사
 
+**-아군(NPC)-**
+
+거구귀
+
 **-적(Enemy)-**
 
 EnemyA : 늑대
@@ -44,6 +48,10 @@ EnemyF :
 EnemyG :
 
 EnemyH :
+
+**-보스(BOSS)-**
+
+
 
 **-아이템(Item)-**
 

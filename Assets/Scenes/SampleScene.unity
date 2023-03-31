@@ -9314,6 +9314,10 @@ MonoBehaviour:
     enemyType: 3
     enemyhealth: 15
     enemyspeed: 2.5
+  - spawnTime: 0.2
+    enemyType: 3
+    enemyhealth: 15
+    enemyspeed: 2.5
 --- !u!1 &240441499
 GameObject:
   m_ObjectHideFlags: 0

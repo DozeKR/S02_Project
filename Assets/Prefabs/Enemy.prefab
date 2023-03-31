@@ -142,10 +142,10 @@ MonoBehaviour:
   health: 0
   maxHealth: 0
   animCon:
-  - {fileID: 9100000, guid: b4050e6adbfa6394788a231b43288013, type: 2}
   - {fileID: 9100000, guid: cf03b48ac17f6ff439e458acc443f5cb, type: 2}
-  - {fileID: 9100000, guid: 46c4bf75233d00748a1a0faf392c9c7b, type: 2}
-  - {fileID: 9100000, guid: e160a84e6a381194d88bce1fcf39fe5e, type: 2}
+  - {fileID: 9100000, guid: eef7c88d075f61f4191772a65a688cc6, type: 2}
+  - {fileID: 9100000, guid: e072e4f368110ac46a461c6937f41caa, type: 2}
+  - {fileID: 9100000, guid: 71fc5494c1cfa724081e97f5536e5bd2, type: 2}
   target: {fileID: 0}
 --- !u!114 &3093843458918952896
 MonoBehaviour:

@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tiger_Walk
+  m_Name: EnemyD_Hit
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,15 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 1501634920, guid: 2cc5c08b96d9bb24589810d13b7f27ed, type: 3}
+      value: {fileID: 473679276, guid: a488c3ed3080877448acef2e7d24bc2c, type: 3}
     - time: 0.083333336
-      value: {fileID: -1008470681, guid: 2cc5c08b96d9bb24589810d13b7f27ed, type: 3}
-    - time: 0.25
-      value: {fileID: -1911885018, guid: 2cc5c08b96d9bb24589810d13b7f27ed, type: 3}
-    - time: 0.5
-      value: {fileID: 1346932464, guid: 2cc5c08b96d9bb24589810d13b7f27ed, type: 3}
-    - time: 0.6666667
-      value: {fileID: 1501634920, guid: 2cc5c08b96d9bb24589810d13b7f27ed, type: 3}
+      value: {fileID: 1456537720, guid: a488c3ed3080877448acef2e7d24bc2c, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,17 +42,14 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 1501634920, guid: 2cc5c08b96d9bb24589810d13b7f27ed, type: 3}
-    - {fileID: -1008470681, guid: 2cc5c08b96d9bb24589810d13b7f27ed, type: 3}
-    - {fileID: -1911885018, guid: 2cc5c08b96d9bb24589810d13b7f27ed, type: 3}
-    - {fileID: 1346932464, guid: 2cc5c08b96d9bb24589810d13b7f27ed, type: 3}
-    - {fileID: 1501634920, guid: 2cc5c08b96d9bb24589810d13b7f27ed, type: 3}
+    - {fileID: 473679276, guid: a488c3ed3080877448acef2e7d24bc2c, type: 3}
+    - {fileID: 1456537720, guid: a488c3ed3080877448acef2e7d24bc2c, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.75
+    m_StopTime: 0.16666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

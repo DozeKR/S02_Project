@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Poolmanger : MonoBehaviour
+public class Poolmanager : MonoBehaviour
 {
     // 프리팹 변수
     public GameObject[] prefabs;

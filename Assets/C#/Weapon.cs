@@ -14,11 +14,7 @@ public class Weapon : MonoBehaviour
     Player player;
 
     void Awake(){
-        player = GetComponentInParent<Player>();
-    }
-
-    void Start(){
-        Init();
+        player = GameManager.instance.player;
     }
 
     void Update(){
@@ -51,7 +47,24 @@ public class Weapon : MonoBehaviour
             Pos1();
     }
 
-    public void Init(){
+    public void Init(ItemData data){
+        // Basic Set
+        name = "Weapon " + data.itemId;
+        transform.parent = player.transform;
+        transform.localPosition = Vector3.zero;
+
+        // Property Set
+        id = data.itemId;
+        damage = data.baseDamage;
+        count = data.baseCount;
+
+        for(int i = 0; i < GameManager.instance.pm.prefabs.Length; i++){
+            if(data.projectile == GameManager.instance.pm.prefabs[i]){
+                prefabId = i;
+                break;
+            }
+        }
+
         switch(id){
             case 0:
                 speed = 150;

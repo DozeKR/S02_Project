@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Item 03
   m_EditorClassIdentifier: 
   itemType: 3
-  itemId: 0
+  itemId: 3
   itemName: "\uAC00\uC8FD\uC2E0\uBC1C"
   itemDesc: 
   itemIcon: {fileID: -886092343, guid: 879862776fc5d7641a73da46256acc06, type: 3}
@@ -26,4 +26,4 @@ MonoBehaviour:
   - 0.4
   - 0.5
   counts: 0000000000000000000000000000000000000000
-  projectile: {fileID: 9103059214133955002, guid: 71ac3c314057cac4bbd688cba64217a4, type: 3}
+  projectile: {fileID: 0}

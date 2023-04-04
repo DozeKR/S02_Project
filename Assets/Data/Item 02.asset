@@ -16,7 +16,7 @@ MonoBehaviour:
   itemId: 2
   itemName: "\uADFC\uB825\uC6B4\uB3D9"
   itemDesc: 
-  itemIcon: {fileID: -382420414, guid: 879862776fc5d7641a73da46256acc06, type: 3}
+  itemIcon: {fileID: 1491460702, guid: 2fab6e3ffc1ccef4283dedd629f21858, type: 3}
   baseDamage: 0
   baseCount: 0
   damagees:

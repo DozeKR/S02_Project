@@ -45,6 +45,8 @@ public class Weapon : MonoBehaviour
 
         if(id == 0)
             Pos1();
+
+        player.BroadcastMessage("ApplyGear", SendMessageOptions.DontRequireReceiver);
     }
 
     public void Init(ItemData data){
@@ -74,6 +76,8 @@ public class Weapon : MonoBehaviour
                 speed = 0.3f;
                 break;
         }
+
+        player.BroadcastMessage("ApplyGear", SendMessageOptions.DontRequireReceiver);
     }
 
     void Pos1(){

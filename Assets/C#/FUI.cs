@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FUI : MonoBehaviour
 {
+
     RectTransform rect;
 
     void Awake(){
@@ -13,4 +14,5 @@ public class FUI : MonoBehaviour
     void FixedUpdate(){
         rect.position = Camera.main.WorldToScreenPoint(GameManager.instance.player.transform.position);
     }
+    
 }
